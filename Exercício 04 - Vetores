@@ -37,29 +37,11 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 10,
+      "execution_count": null,
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "rEpIK7giI9lf",
-        "outputId": "d93304da-1590-4da8-99a7-cdedcfb9eb97"
+        "id": "rEpIK7giI9lf"
       },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: brazil\n",
-            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: argentina\n",
-            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: chile\n",
-            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: sair\n",
-            "Brazil\n",
-            "Argentina\n",
-            "Chile\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "cidades = []\n",
         "menuAtivo = True\n",
