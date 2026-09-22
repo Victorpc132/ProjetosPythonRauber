@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPMGXavQ0trNZ3I52ZIEgDA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Victorpc132/ProjetosPythonRauber/blob/main/Exerc%C3%ADcio%2004%20-%20Vetores\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "t02E4jFQOMP8"
+      },
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rEpIK7giI9lf",
+        "outputId": "d93304da-1590-4da8-99a7-cdedcfb9eb97"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: brazil\n",
+            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: argentina\n",
+            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: chile\n",
+            "Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: sair\n",
+            "Brazil\n",
+            "Argentina\n",
+            "Chile\n"
+          ]
+        }
+      ],
+      "source": [
+        "cidades = []\n",
+        "menuAtivo = True\n",
+        "def cidadesF():\n",
+        "  for i in range(len(cidades)):\n",
+        "    print(cidades[i])\n",
+        "\n",
+        "\n",
+        "while(menuAtivo == True):\n",
+        "  dgit = input(\"Digite o nome da cidade para armazenar ou digite sair para cancelar o programa: \")\n",
+        "  dgit = dgit.lower()\n",
+        "  if(dgit == \"sair\" ):\n",
+        "    cidadesF()\n",
+        "    menuAtivo = False\n",
+        "\n",
+        "  else:\n",
+        "    dgit = dgit[0].upper()+dgit[1:]\n",
+        "    cidades.append(dgit)\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
